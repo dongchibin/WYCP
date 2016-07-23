@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DCBHeader</key>
+		<string></string>
+		<key>DCBFooter</key>
+		<string></string>
+		<key>DCBItems</key>
+		<array>
+			<dict>
+				<key>DCBTitle</key>
+				<string>评分支持</string>
+				<key>DCBAccessoryType</key>
+				<string>UIImageView</string>
+				<key>DCBAccessoryName</key>
+				<string>arrow_right</string>
+				<key>DCBCallFunc</key>
+				<string>scoreSupport</string>
+			</dict>
+			<dict>
+				<key>DCBTitle</key>
+				<string>客服电话</string>
+				<key>DCBCellStyle</key>
+				<string>UITableViewCellStyleValue1</string>
+				<key>DCBSubtitle</key>
+				<string>10010</string>
+				<key>DCBCallFunc</key>
+				<string>callKFMM</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DCBHeader</key>
+		<string></string>
+		<key>DCBFooter</key>
+		<string>开启后,当我投注或关注的比赛开始,进球和结束时,会自动发送推送消息提醒</string>
+		<key>DCBItems</key>
+		<array>
+			<dict>
+				<key>DCBTitle</key>
+				<string>推送关注我的比赛</string>
+				<key>DCBAccessoryType</key>
+				<string>UISwitch</string>
+				<key>DCBKeyName</key>
+				<string>push2_tswgzdbs</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>DCBHeader</key>
+		<string>只在以下时间段接受比分推送</string>
+		<key>DCBFooter</key>
+		<string></string>
+		<key>DCBItems</key>
+		<array>
+			<dict>
+				<key>DCBTitle</key>
+				<string>起始时间</string>
+				<key>DCBSubtitle</key>
+				<string>00:00</string>
+				<key>DCBCellStyle</key>
+				<string>UITableViewCellStyleValue1</string>
+				<key>DCBHighlight</key>
+				<true/>
+				<key>DCBTimeKey</key>
+				<string>push2_start</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>DCBHeader</key>
+		<string></string>
+		<key>DCBFooter</key>
+		<string></string>
+		<key>DCBItems</key>
+		<array>
+			<dict>
+				<key>DCBTitle</key>
+				<string>结束时间</string>
+				<key>DCBSubtitle</key>
+				<string>23:59</string>
+				<key>DCBCellStyle</key>
+				<string>UITableViewCellStyleValue1</string>
+				<key>DCBHighlight</key>
+				<true/>
+				<key>DCBTimeKey</key>
+				<string>push2_end</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

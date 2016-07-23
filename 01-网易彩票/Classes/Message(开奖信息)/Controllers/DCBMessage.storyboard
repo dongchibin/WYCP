@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2H6-l2-JPh">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--开奖信息-->
+        <scene sceneID="G1n-Pq-cQf">
+            <objects>
+                <viewController id="d93-0A-7vI" customClass="DCBMessageController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="B3Q-dj-Qi1"/>
+                        <viewControllerLayoutGuide type="bottom" id="9pk-pt-0aW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="38b-Rc-4sd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="开奖信息" id="cMI-yI-AVK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lBF-af-dkf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748" y="285"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lyI-j2-aSb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2H6-l2-JPh" customClass="DCBNavigationController" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wfY-cc-7gT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="d93-0A-7vI" kind="relationship" relationship="rootViewController" id="gSX-aR-0oU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oQw-hN-t1A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="112" y="307"/>
+        </scene>
+    </scenes>
+</document>
